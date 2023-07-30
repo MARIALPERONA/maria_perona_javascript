@@ -18,4 +18,16 @@ while (ValorProducto >= 100000) {
     break; 
 }
 
-let productoDos = prompt("Ingrese el segundo producto");
+function avisodescuento(ValorProducto) {
+    let voucher = (ValorProducto / 100) * 10;
+    console.log(`Gracias por utilizar el servicio, se ha ganado un voucher de ${voucher} de descuento en su próxima compra.`);
+    return;
+  }
+
+avisodescuento(valorProducto);
+
+
+
+
+
+
